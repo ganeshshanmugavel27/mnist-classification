@@ -112,8 +112,8 @@ model.add(layers.Dense(64,activation='relu'))
 model.add(layers.Dense(10,activation='softmax'))
 
 model.summary()
-print('''Jeevitha
-212222230054''')
+print('''GANESH S
+212222040042''')
 
 model.compile(loss='categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
 
@@ -124,8 +124,8 @@ metrics = pd.DataFrame(model.history.history)
 metrics.head()
 
 metrics[['accuracy','val_accuracy']].plot()
-print('''Jeevitha
-212222230054''')
+print('''GANESH S
+212222040042''')
 
 metrics[['loss','val_loss']].plot()
 print('''GANESH S
@@ -154,8 +154,8 @@ x_single_prediction = np.argmax(model.predict(img_28_gray_scaled.reshape(1,28,28
 print(x_single_prediction)
 
 plt.imshow(img_28_gray_scaled.reshape(28,28),cmap='gray')
-print(''' Jeevitha
-212222230054''')
+print(''' GANESH
+212222040042''')
 
 img_28_gray_inverted = 255.0-img_28_gray
 img_28_gray_inverted_scaled = img_28_gray_inverted.numpy()/255.0
