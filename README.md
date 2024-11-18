@@ -128,18 +128,18 @@ print('''Jeevitha
 212222230054''')
 
 metrics[['loss','val_loss']].plot()
-print('''Jeevitha
-212222230054''')
+print('''GANESH S
+212222040042''')
 
 x_test_predictions = np.argmax(model.predict(X_test_scaled), axis=1)
 
 print(confusion_matrix(y_test,x_test_predictions))
-print('''Jeevitha
-212222230054''')
+print('''GANESH
+212222040042'')
 
 print(classification_report(y_test,x_test_predictions))
-print('''Jeevitha
-212222230054''')
+print('''GANESH
+212222040042''')
 
 img = image.load_img('/content/image.png')
 
